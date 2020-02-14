@@ -7,9 +7,7 @@ randomValue3=$((10+RANDOM%89))
 randomValue4=$((10+RANDOM%89))
 randomValue5=$((10+RANDOM%89))
 #ADDITION OF RANDOM VALUES
-additionOfRandomVaules=$(( randomValue1 + randomValue2
-								 + randomValue3 + randomValue4
-													 + randomValue5 ))
+additionOfRandomVaules=$(( randomValue1 + randomValue2 + randomValue3 + randomValue4 + randomValue5 ))
 #AVERAGE OF ADDITION
 average=$((additionOfRandomVaules/5))
 #DISPLAY THE RESULTS
